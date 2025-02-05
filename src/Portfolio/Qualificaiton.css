@@ -1,0 +1,100 @@
+
+.quali{
+    min-height: 85.5vh;
+}
+.head{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 46px;
+    margin-bottom: 70px;
+    text-transform:capitalize;
+}
+
+.para{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform:capitalize;
+    margin-left: -41px;
+    padding: 40px;
+    margin-top: -50px;
+}
+
+h5,h6{
+    font-weight: 400;
+} 
+
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.yr{
+    margin-top: -30px;
+}
+.head6{
+    margin-top: 15px;
+}
+.pg{
+    font-size: 25px;
+    text-transform:capitalize;
+    padding: 30px;
+    margin-left: 150px;
+}
+.project{
+    font-size: 25px;
+    text-transform:capitalize;
+    padding: 30px;
+    margin-left: 150px;
+}
+
+.qual12,.pro12{
+    display: flex;
+    margin-top: 30px;
+}
+
+.bookie{
+    width: 50px;
+    height:50px;
+    margin-top:42px;
+    margin-right: 30px;
+    padding: -28px;
+    background-color: rgba(24, 24, 24, 0.87);
+    border-radius: 25px;
+}
+
+.sono{
+    display: flex;
+    justify-content: center;
+}
+
+.sett{
+    height: 40px;
+    width: 40px;
+    margin-top:-15px;
+    margin-left: -30px;
+}
+
+.toppi{
+    height: 40px;
+    width: 40px;
+    margin-top: -15px;
+    padding: -10px;
+    margin-left: -30px;
+    
+}
+
+
+.pg, .project{
+              box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+ .pg:hover{
+    transform: translate(-15px,-15px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+} 
+ 
+.project:hover{
+    transform: translate(-15px,-15px);     
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+} 

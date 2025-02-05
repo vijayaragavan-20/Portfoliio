@@ -1,0 +1,40 @@
+input::placeholder, textarea::placeholder,.btn{
+    color: black;
+   font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 10px;
+   font-style: italic;
+   letter-spacing: 1px;
+}
+.fm{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.mini{
+    animation: mail 3s ease-in-out 1 ;
+}
+
+@keyframes mail {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width: 428px) {  
+
+    .btn{
+        width: 400px;
+        height: 40px;
+    }
+   .fm{
+       
+       height: 200px;
+
+   }
+    
+}
