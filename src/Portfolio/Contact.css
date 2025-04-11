@@ -1,6 +1,7 @@
 
 .cont{
-        min-height: 500px;    
+        min-height: 500px; 
+        color: rgb(93, 144, 186);
 }
 .head{
     font-size: 46px;

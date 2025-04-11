@@ -1,14 +1,19 @@
 input::placeholder, textarea::placeholder,.btn{
-    color: black;
+    color: rgb(245, 238, 238);
    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    padding: 10px;
    font-style: italic;
    letter-spacing: 1px;
 }
+.mini{
+    color: rgb(93, 144, 186);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .fm{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    
 
 }
 .mini{

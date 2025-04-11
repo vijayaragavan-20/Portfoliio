@@ -1,6 +1,7 @@
 
 .quali{
     min-height: 85.5vh;
+    color: rgb(93, 144, 186);
 }
 .head{
     text-align: center;
@@ -69,8 +70,9 @@ h5,h6{
 .sett{
     height: 40px;
     width: 40px;
-    margin-top:-15px;
+    margin-top:-13px;
     margin-left: -30px;
+    background-color: rgba(212, 215, 218, 0.879);
 }
 
 .toppi{
@@ -79,22 +81,26 @@ h5,h6{
     margin-top: -15px;
     padding: -10px;
     margin-left: -30px;
+    background-color: rgba(212, 215, 218, 0.879);
     
 }
 
 
 .pg, .project{
               box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+              transition: 0.5s;
         }
 
  .pg:hover{
     transform: translate(-15px,-15px); 
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
+    color:aliceblue;
 } 
  
 .project:hover{
     transform: translate(-15px,-15px);     
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
+    color:aliceblue;
 } 

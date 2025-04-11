@@ -24,10 +24,10 @@ const EmailForm = () => {
 
     emailjs
       .send(
-        'service_5dvvtsl',
-        'template_kq30vys', 
+        'service_huk3i2a',
+        'template_fw6xhlc', 
         templateParams,
-        '0Ld3C1e3SpoOaDVtw' 
+        'PBOzQzCl6_4YpJW8_' 
 
 
       )
@@ -59,20 +59,20 @@ const EmailForm = () => {
           placeholder="Your Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          style={{ width: '90%', padding: '10px', marginBottom: '10px', border: '2px solid black',borderRadius: '5px' ,backgroundColor: 'transparent'}}
+          style={{ width: '90%', padding: '10px', marginBottom: '10px', border: '2px solid black',borderRadius: '5px' ,backgroundColor: 'transparent',color: 'rgb(93, 144, 186)'}}
         ></input>
         <input 
           type="email"
           placeholder="Your Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          style={{ width: '90%', padding: '10px', marginBottom: '10px', border: '2px solid black' ,borderRadius: '5px',backgroundColor: 'transparent'}}
+          style={{ width: '90%', padding: '10px', marginBottom: '10px', border: '2px solid black' ,borderRadius: '5px',backgroundColor: 'transparent',color: 'rgb(93, 144, 186)'}}
         />
         <textarea 
           placeholder="Type your message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          style={{ width: '95%', height: '50px', marginBottom: '10px', border: '2px solid black',borderRadius: '5px' ,backgroundColor: 'transparent'}}
+          style={{ width: '95%', height: '50px', marginBottom: '10px', border: '2px solid black',borderRadius: '5px' ,backgroundColor: 'transparent',color: 'rgb(93, 144, 186)'}}
         ></textarea>
         <button className='btn'  type="submit" style={{  width: '96%', fontSize: '20px',padding: '10px 20px', cursor: 'pointer', border: '2px solid black',borderRadius: '5px',backgroundColor: '#26408f'}}>
           Submit

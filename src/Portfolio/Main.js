@@ -9,9 +9,11 @@ import Project from './Project';
 import Contact from './Contact';
 import './Main.css';
 
+
 function App() {
   return (
    <>
+
     <Router>
     <Navbar />
    

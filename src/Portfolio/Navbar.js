@@ -9,7 +9,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav>
-      <h1 className='vj'>Vijay</h1>
+      <h1 className='vj'>Abinesh</h1>
       <ul>
         <li className='li'><Link to="/Home">Home</Link></li>
         <li className='li'><Link to="/Skills">Skills</Link></li>

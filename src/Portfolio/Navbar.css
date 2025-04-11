@@ -36,23 +36,24 @@
     margin-right: 50px;
     margin-left: 190px;
     margin-bottom: 40px;
-    color: rgb(1, 13, 23);
+    color: rgb(93, 144, 186);
+    
    
 }
 nav{
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #d4afca, #a1b3d0);
+    background-image: linear-gradient( to right, #0e0e0e, #1a0948);
 
     /* #240449; */
 
 }
 
 a{
-    color: #222121;
+    color: rgb(93, 144, 186);
     font-size: 20px;
     padding: 10px;
-    color: rgb(2, 13, 22);
+    color:  rgb(93, 144, 186);
     text-decoration: none;
 }
 
@@ -61,7 +62,7 @@ a{
     }
 
     .bbn{
-        background-color: #0e001e;
+        background-color: rgb(93, 144, 186);
         border: none;
         cursor: pointer;
         color: aliceblue;
@@ -72,10 +73,10 @@ a{
     }
 
     .derr{
-        background-color: #0e001e;
+        background-color:  rgb(93, 144, 186);
         border: none;
         cursor: pointer;
-        color: aliceblue;
+        color: rgb(93, 144, 186);
         transform: scale(0.3);
         margin-top: -18px;
         margin-left: -25px;

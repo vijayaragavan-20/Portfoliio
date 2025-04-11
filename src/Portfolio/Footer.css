@@ -1,31 +1,34 @@
 
-
+.foot{
+    color: rgb(93, 144, 186);
+}
 .tr{
     color: #222121;
     font-size: 20px;
     padding: 10px;
     text-decoration: none;
+    color: rgb(93, 144, 186);
 }
 
 .tr:hover{
-    letter-spacing: 0.3px;
-    animation:fot 0.5s ease-in-out 0.1s 1 ;
-    color: #222121;
+    letter-spacing: 0.2px;
+    animation:fot 0.5s  0.1s 1 ;
+    transition: 0.6s;
+    color: rgb(193, 198, 202);
 }
 
 .last_line{
     display: flex;
     justify-content: space-around;
     margin-top: 145px;
-    animation: ft 2s ease-in-out 0.1s 1 ;   
+    animation: ft 2s ease-in-out 0.1s 1 ;       
 }
 
 .wh, .gm,.in,.nt{
     width: 30px;
     height: 30px;
     margin-right: -210px;
-    margin-top: 5px;
-        
+    margin-top: 5px;        
 }
 
 .gm{

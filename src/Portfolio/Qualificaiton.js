@@ -29,8 +29,8 @@ const Qualificaiton = () => {
           <h6 className='yr'>2022-2024</h6>
           <br/>
       
-        <h3>Bachelor of Computer Applications</h3>
-          <h5>Madurai,India</h5>
+        <h3>Bachelor of Information Technology</h3>
+          <h5>Coimbatore,India</h5>
           <h6 className='yr'>2019-2022</h6>
       </div>
       <div className='project'>
@@ -40,12 +40,12 @@ const Qualificaiton = () => {
       <img src={sett} alt='logo' className='sett'/>
       </div>
 
-        <h3>Lung Cancer Dedection Using ML</h3>
-        <h6 className='head6'>Used technologies: HTML,Css,JavaScript,Machine Learning</h6>
+        <h3>Turf Booking System</h3>
+        <h6 className='head6'>Used technologies: HTML,Css,JavaScript,Java</h6>
         <br/>
         <br/>
         
-        <h3>Smart Parking System Using Node-MCU</h3>
+        <h3>Road Vehicle Detection Using IOT</h3>
         <h6 className='head6'>Used technologies: Embeded c</h6>
 
 
